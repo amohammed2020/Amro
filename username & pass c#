@@ -1,0 +1,26 @@
+using System;
+
+namespace ConsoleApp3_if
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("myHonesty!");
+           
+            string username,pass;
+            username = Console.ReadLine();
+           
+            if (username == "Amro")
+            {
+                pass = Console.ReadLine();
+               
+                if (pass == "1234")
+                {
+                    Console.WriteLine("hallo" + username);
+                    Console.ReadKey();
+                }
+            }
+        }
+    }
+}
